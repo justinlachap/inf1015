@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <sstream>
 
 
 using namespace std;
@@ -9,7 +8,7 @@ using namespace std;
 int main()
 
 {
-	vector<string> mots{ "" }; //Crée un premier mot vide dans le vecteur
+	vector<string> mots{ "" }; //CrÃ©e un premier mot vide dans le vecteur
 	string phrase;
 	int index = 0;
 	cout << "Saisissez une phrase : ";
@@ -19,7 +18,7 @@ int main()
 			mots[index] += i; // Tant qu'il n'y a pas d'espace, on termine le mot
 		}
 		else {
-			mots.push_back(""); // Crée un nouveau mot dans le vecteur
+			mots.push_back(""); // CrÃ©e un nouveau mot dans le vecteur
 			index += 1;
 		}
 	}
